@@ -1,17 +1,15 @@
+
+body{
+    margin: 0;
+}
 .card {
-    position: relative;
     margin:100px auto;
-    width: 375px;
-    height:140px;
-    background: url('../images/award.jpeg');
-    background-size: 375px 140px;
+    width: 100%;
+    height:280px;
+    background: url('../images/award.jpeg') no-repeat;
+    background-size: 750px auto;
 }
 .card canvas {
-    width: 375px;
-    height: auto;
-}
-
-#cover{
-    position: absolute;
-    left: 0;
-}
+    width: 750px;
+    height: 280px;
+} 
